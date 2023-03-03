@@ -24,7 +24,7 @@ module alu(
     input [3:0] in1,
     input [3:0] in2,
     input [2:0] op,
-    input [8:0] out
+    output [8:0] out
     );
     wire [4:0]a1,a2;
     wire [3:0]a3,a4,a5,a6,a7;
